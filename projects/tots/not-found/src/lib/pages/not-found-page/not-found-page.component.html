@@ -1,0 +1,14 @@
+<div class="tots-not-found-container">
+    <!-- Main -->
+    <div class="tots-not-found-content">
+        
+        <div *ngIf="config.image != undefined" class="tots-found-image-content">
+            <img [src]="config.image" />
+        </div>
+        
+        <div class="tots-not-found-title">{{config.textTitle??'Ooops... 404!'}}</div>
+        <div class="tots-not-found-subtitle">{{config.textSubtitle??'The page you requested could not be found.'}}</div>
+
+        <a *ngIf="config.textReturn != undefined" class="tots-not-found-return" (click)="onClickReturn()">{{config.textReturn??'Back to Dashboard'}}</a>
+    </div>
+</div>
