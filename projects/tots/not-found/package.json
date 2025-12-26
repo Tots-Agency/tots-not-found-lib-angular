@@ -1,12 +1,12 @@
 {
   "name": "@tots/not-found",
-  "version": "15.0.1",
+  "version": "20.0.0",
   "peerDependencies": {
-    "@angular/common": "^15.0.0",
-    "@angular/core": "^15.0.0"
+    "@angular/common": "^20.0.0",
+    "@angular/core": "^20.0.0"
   },
   "dependencies": {
-    "tslib": "^2.3.0"
+    "tslib": "^2.8.0"
   },
   "sideEffects": false
 }

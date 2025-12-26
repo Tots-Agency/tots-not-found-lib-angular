@@ -5,7 +5,8 @@ import { ActivatedRoute, Router } from '@angular/router';
 @Component({
   selector: 'tots-not-found-page',
   templateUrl: './not-found-page.component.html',
-  styleUrls: ['./not-found-page.component.scss']
+  styleUrls: ['./not-found-page.component.scss'],
+  standalone: false
 })
 export class TotsNotFoundPageComponent implements OnInit {
   config!: TotsNotFoundPageConfig;
